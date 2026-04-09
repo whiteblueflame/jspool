@@ -1,0 +1,6 @@
+Run from `backend/`:
+
+  alembic revision --autogenerate -m "message"
+  alembic upgrade head
+
+Ensure `.env` contains a valid `DATABASE_URL`.
